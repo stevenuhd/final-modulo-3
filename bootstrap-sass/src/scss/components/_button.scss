@@ -1,0 +1,17 @@
+
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.button{
+    @include mixins.flex-center;
+    padding: variables.$padding-base;
+    background-color: variables.$primary-color;
+    color: variables.$secondary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+       @include mixins.box-shadow;
+    }
+}

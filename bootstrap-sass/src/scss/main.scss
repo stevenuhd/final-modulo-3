@@ -1,0 +1,9 @@
+
+@use './abstracts/variables';
+@use './abstracts/mixins';
+@use './components/button';
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
